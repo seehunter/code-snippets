@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SubReqProClient",
+            "request": "launch",
+            "mainClass": "com.seehunter.example.SubReqProClient",
+            "projectName": "protobuftest"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SubRespProServer",
+            "request": "launch",
+            "mainClass": "com.seehunter.example.SubRespProServer",
+            "projectName": "protobuftest"
+        }
+    ]
+}
