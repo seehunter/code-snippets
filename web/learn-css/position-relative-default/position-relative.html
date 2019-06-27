@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .d1{
+            /* position:relative; */
+            width:100%;
+            height: 900px;
+            border:1px solid red;
+        }
+
+        .d2{
+            position:relative;
+            top:10%;
+            left:20%;
+            width:80%;
+            height: 600px;
+            border:1px solid green;
+        }
+
+        .d3{
+            position: absolute;
+            
+            top:20%;
+            left:30%;
+            width:60%;
+            height: 300px;
+            border:1px solid blue;
+        }
+
+        .d4{
+            clear:both;
+            top:10%;
+            left:10%;
+            width:50%;
+            height:200px;
+            border:1px solid black;
+        }
+
+    </style>
+
+    <div class="d1">
+        <div class="d2">
+            <div class="d3">
+                <div class="d4"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

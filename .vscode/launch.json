@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - URLTest",
+            "request": "launch",
+            "mainClass": "URLTest"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - SubReqProClient",
             "request": "launch",
             "mainClass": "com.seehunter.example.SubReqProClient",

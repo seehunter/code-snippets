@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <style>
+                .no_exact_width_outter{
+                    float:left;
+                    position: relative;
+                    border:1px solid red;
+                    left:50%;
+                }
+        
+                .no_exact_width_inner{
+                    position: relative;
+                    left:-50%;
+                    border:1px solid blue;
+                    float:left;
+                }
+        
+                .exact_width_outter{
+        
+                }
+        
+                .exact_width_inner{
+        
+                }
+            </style>
+        
+            <div class="no_exact_width_outter">
+                <span class="no_exact_width_inner">我是要居中的浮动元素</span>
+            </div>
+        
+            <div class="exact_width_outter">
+                <div clss="exact_width_inner">
+                    
+                </div>
+            </div>
+</body>
+</html>
