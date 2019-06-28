@@ -73,6 +73,27 @@
 
 ## 事件处理
 
+    示例：
+    <a className={pageStore.state.page === 0 ? 'active' : ''} href="#" onClick={this.handleClick.bind(this, 0)}>
+
+    <button onClick={() => store.resetState()}>Reset store</button>
+
+    <button onClick={e => this.iterateStateValue(e)}>
+
+    private iterateStateValue(e) {
+        e.preventDefault();
+        this.setState({
+                items: this.state.items.concat({value: Math.random()}),
+        });
+    }
+
+    private handleClick(id,e) {
+                e.preventDefault();
+                pageStore.setState({
+                page: id,
+            });
+    }
+
 ## 条件渲染
 
 ## 列表和key
@@ -86,8 +107,3 @@
 ## React哲学
 
 ## 特殊的保存数据的对象state
-
-
-
-  
-

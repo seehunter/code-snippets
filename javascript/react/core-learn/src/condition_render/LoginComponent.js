@@ -15,9 +15,9 @@ export default class LoginComponent extends React.Component{
     render(){
         let button;
         if(this.state.isLoginedIn){
-            button=<LoginButton click={this.handleLoginClick} />
+            button=<LoginButton click={this.handleLoginOutClick} />
         }else{
-            button=<LoginOutButton click={this.handleLoginOutClick} />
+            button=<LoginOutButton click={this.handleLoginClick} />
         }
         return(
             <div>
