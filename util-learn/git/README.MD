@@ -10,4 +10,10 @@
     3. git commit -m 're cache'
         重新提交
 
+### .gitinore文件
 
+    ** ---- 表示所有目录
+
+    应用：忽略所有 node_module文件夹
+
+    
