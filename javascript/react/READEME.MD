@@ -1,0 +1,1 @@
+node环境中的dependencies属性和devDependencies的区别是在发布的时候是否装入，在开发运行的时候并没有区别，两者的包都会通过install命令下载

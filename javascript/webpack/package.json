@@ -1,0 +1,29 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "lodash": "4.17.11",
+    "style-loader": "0.23.1",
+    "css-loader": "3.0.0"
+  },
+  "devDependencies": {
+    "css-loader": "^3.0.0",
+    "file-loader": "^4.0.0",
+    "lodash": "4.17.11",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

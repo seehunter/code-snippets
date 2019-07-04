@@ -1,0 +1,14 @@
+
+
+@font-face {
+    font-family: 'MyFont';
+    src:  url('../assert/mmlwsj.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+.hello{
+    color:red;
+    background: url('../assert/icon.jpg');
+    font-family: 'MyFont';
+}
