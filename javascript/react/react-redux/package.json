@@ -10,7 +10,7 @@
     "redux-logger": "^3.0.6",
     "redux-saga": "^0.15.3",
     "redux-thunk": "^2.2.0",
-    "axios": "^0.16.2",
+    "axios": "^0.21.1",
     "prop-types": "15.7.2"
   },
   "devDependencies": {
@@ -22,7 +22,7 @@
     "redux-logger": "^3.0.6",
     "redux-saga": "^0.15.3",
     "redux-thunk": "^2.2.0",
-    "axios": "^0.16.2",
+    "axios": "^0.21.1",
     "prop-types": "15.7.2"
   },
   "scripts": {
